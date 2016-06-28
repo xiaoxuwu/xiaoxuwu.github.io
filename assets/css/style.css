@@ -6,7 +6,7 @@ body
 img.portrait
 {
   border-radius:50%;
-  border:2em solid hsl(14, 100%, 57%);
+  border:1.5em solid hsl(14, 100%, 57%);
   display:block;
   width: 25%;
   min-width: 380px;
