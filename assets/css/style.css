@@ -1,0 +1,105 @@
+body
+{
+  background-color: hsl(199, 98%, 50%);
+}
+
+img.portrait
+{
+  border-radius:50%;
+  border:2em solid hsl(14, 100%, 57%);
+  display:block;
+  width: 25%;
+  min-width: 380px;
+  margin: auto;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  box-shadow: 0px 0px 0px 1em white;
+}
+
+section.title
+{
+  background-color: hsl(199, 98%, 60%);
+  margin-bottom:0;
+}
+
+h1
+{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: hsl(14, 100%, 60%);
+  font-size: 500%;
+  margin-top:0.6em;
+  line-height: 1.5em;
+  text-shadow:
+
+  -3px 0px 3px white,
+  0px -3px 3px white,
+  3px  0px 3px white,
+  0px  3px 3px white,
+
+  -3px -2px 3px white,
+  -2px -3px 3px white,
+  2px -3px 3px white,
+  -3px  2px 3px white,
+  3px  2px 3px white,
+  2px  3px 3px white,
+
+    -1px -3px 3px white,
+    -3px -1px 3px white,
+    1px -3px 3px white,
+    -3px  1px 3px white,
+    3px  1px 3px white,
+    1px  3px 3px white,
+
+    -3px -3px 3px white,
+     3px -3px 3px white,
+    -3px  3px 3px white,
+     3px  3px 3px white;
+}
+
+section.body
+{
+    text-align: center;
+    padding-top:1.5em;
+    padding-bottom:1.5em;
+    background-color: hsl(199, 98%, 67%);
+    box-shadow: 0px 3em 0px 3em hsl(199, 98%, 60%);
+}
+
+p
+{
+  display:block;
+  margin: auto;
+  padding:1em;
+  text-align: justify;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: hsl(199, 98%, 95%);
+  font-size: 150%;
+  max-width: 48em;
+  line-height: 1.5em;
+}
+
+p.copyright
+{
+  font-size:100%;
+}
+
+section
+{
+    margin-bottom: 10em;
+}
+
+address
+{
+  font-style: normal;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: hsl(199, 98%, 95%);
+  font-size: 150%;
+}
+iframe
+{
+  max-width: 940px;
+  width: 100%;
+  height:960px;
+}
