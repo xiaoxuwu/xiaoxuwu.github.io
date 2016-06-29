@@ -296,7 +296,7 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
   }
   h1
   {
-    font-size: 360%;
+    font-size: 345%;
   }
 
   p
@@ -307,7 +307,6 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
   img.portrait
   {
     min-width: 240px;
-    margin-top: 2em;
     margin-bottom: 0;
     border:1em solid hsl(14, 100%, 57%);
 
@@ -316,6 +315,11 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
   iframe
   {
     height:560px;
+  }
+
+  div.top-container
+  {
+    padding-top:2em;
   }
 }
 
