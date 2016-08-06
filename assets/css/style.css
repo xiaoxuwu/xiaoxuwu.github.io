@@ -76,7 +76,10 @@ strong
 {
   color: hsl(14, 100%, 57%);
 }
-
+.centered
+{
+  text-align: center;
+}
 section
 {
     margin-bottom: 10em;
