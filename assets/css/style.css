@@ -99,6 +99,7 @@ strong
 
 img.project_pic
 {
+  width: 100%;
   max-width: 920px;
 }
 
