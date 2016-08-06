@@ -83,6 +83,23 @@ strong
   padding-top:0;
   font-size: 100%;
 }
+
+.centered
+{
+  padding-top: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+img.project_pic
+{
+  text-align: center;
+  width:100%;
+  max-width: 920px;
+  margin: auto;
+  padding:0.5em;
+}
+
 section
 {
     margin-bottom: 10em;
