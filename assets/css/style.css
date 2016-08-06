@@ -17,7 +17,7 @@ img.portrait
   width: 25%;
   min-width: 380px;
   margin: auto;
-  box-shadow: 0px 0px 0px 1em white;
+  box-shadow: 0px 0px 0px 1em hsl(199, 98%, 98%);
 }
 
 section.title
