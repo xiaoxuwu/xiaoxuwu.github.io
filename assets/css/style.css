@@ -89,6 +89,12 @@ strong
   padding-top: 0;
   margin-top: 0;
   text-align: center;
+  margin-bottom: 1em;
+}
+
+.caption
+{
+    font-size: 2vw;
 }
 
 img.project_pic
@@ -131,4 +137,9 @@ footer
 span
 {
   font-weight: bolder;
+}
+
+[class^='imghvr-'],
+[class*=' imghvr-'] {
+  background-color: #029ce3;
 }
