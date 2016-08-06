@@ -326,6 +326,11 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
   {
     font-size: 75%;
   }
+
+  .caption
+  {
+      font-size: 2vw;
+  }
 }
 
 @media screen and (max-width:320px) {
