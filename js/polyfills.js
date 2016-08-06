@@ -1,7 +1,7 @@
 /*!
  * classie - class helper functions
  * from bonzo https://github.com/ded/bonzo
- * 
+ *
  * classie.has( elem, 'my-class' ) -> true/false
  * classie.add( elem, 'my-new-class' )
  * classie.remove( elem, 'my-unwanted-class' )
@@ -22,7 +22,6 @@ function classReg( className ) {
 }
 
 // classList support for class management
-// altho to be fair, the api sucks because it won't accept multiple classes at once
 var hasClass, addClass, removeClass;
 
 if ( 'classList' in document.documentElement ) {
@@ -83,12 +82,12 @@ if ( typeof define === 'function' && define.amd ) {
     function addToPrototype(name, method) {
         Window.prototype[name] = HTMLDocument.prototype[name] = Element.prototype[name] = method;
     }
- 
+
     var registry = [];
- 
+
     addToPrototype("addEventListener", function (type, listener) {
         var target = this;
- 
+
         registry.unshift({
             __listener: function (event) {
                 event.currentTarget = target;
@@ -100,17 +99,17 @@ if ( typeof define === 'function' && define.amd ) {
                 event.relatedTarget = event.fromElement || null;
                 event.target = event.srcElement || target;
                 event.timeStamp = +new Date;
- 
+
                 listener.call(target, event);
             },
             listener: listener,
             target: target,
             type: type
         });
- 
+
         this.attachEvent("on" + type, registry[0].__listener);
     });
- 
+
     addToPrototype("removeEventListener", function (type, listener) {
         for (var index = 0, length = registry.length; index < length; ++index) {
             if (registry[index].target == this && registry[index].type == type && registry[index].listener == listener) {
@@ -118,7 +117,7 @@ if ( typeof define === 'function' && define.amd ) {
             }
         }
     });
- 
+
     addToPrototype("dispatchEvent", function (eventObject) {
         try {
             return this.fireEvent("on" + eventObject.type, eventObject);
@@ -131,4 +130,3 @@ if ( typeof define === 'function' && define.amd ) {
         }
     });
 })();
-
