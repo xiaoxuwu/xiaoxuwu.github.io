@@ -1,6 +1,6 @@
 body
 {
-  background-color: hsl(199, 98%, 95%);
+  background-color: hsl(199, 98%, 98%);
 }
 
 div.top-container
@@ -41,7 +41,7 @@ section.body
 {
     text-align: center;
     padding-top:1.5em;
-    background-color: hsl(199, 98%, 95%);
+    background-color: hsl(199, 98%, 98%);
 }
 
 a
@@ -67,6 +67,15 @@ p.copyright
   font-size:100%;
 }
 
+strong
+{
+  font-size:200%;
+}
+.orange
+{
+  color: hsl(14, 100%, 57%);
+}
+
 section
 {
     margin-bottom: 10em;
@@ -85,7 +94,7 @@ iframe
 {
   max-width: 940px;
   width: 100%;
-  height:960px;
+  height:70em;
 }
 
 footer
