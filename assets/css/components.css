@@ -321,6 +321,11 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
   {
     padding-top:2em;
   }
+
+  .centered_instructions
+  {
+    font-size: 60%;
+  }
 }
 
 @media screen and (max-width:320px) {
