@@ -149,7 +149,7 @@ li{
   font-size: 0.7em;
   font-weight: bold;
   opacity: 0.8;
-  "Trebuchet MS", Helvetica, sans-serif
+  font: "Trebuchet MS", Helvetica, sans-serif
 }
 
 /* for a central angle x, the list items must be skewed by 90-x degrees
