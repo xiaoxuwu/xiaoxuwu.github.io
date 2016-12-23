@@ -74,6 +74,7 @@ section.body
     text-align: center;
     padding-top:1.5em;
     background-color: white;
+    border-bottom: 1px transparent solid;
 }
 
 a
@@ -98,6 +99,7 @@ p
     font-size: 150%;
     max-width: 48em;
     line-height: 1.5em;
+    border-bottom: 1px transparent solid ;
 }
 
 
