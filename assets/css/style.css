@@ -1,34 +1,34 @@
 div.top-container
 {
-  background-color: hsl(199, 98%, 45%);
-  padding-top:3em;
+    background-color: hsl(199, 98%, 45%);
+    padding-top:3em;
 }
 
 img.portrait
 {
-  border-radius:50%;
-  border:1.5em solid hsl(14, 100%, 57%);
-  display:block;
-  width: 20%;
-  min-width: 380px;
-  margin: auto;
-  box-shadow: 0px 0px 0px 1em hsl(199, 98%, 98%);
+    border-radius:50%;
+    border:1.5em solid hsl(14, 100%, 57%);
+    display:block;
+    width: 20%;
+    min-width: 380px;
+    margin: auto;
+    box-shadow: 0px 0px 0px 1em hsl(199, 98%, 98%);
 }
 
 section.title
 {
-  background-color: hsl(199, 98%, 60%);
-  margin-bottom:0;
+    background-color: hsl(199, 98%, 60%);
+    margin-bottom:0;
 }
 
 h1
 {
-  text-align: center;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  color: hsl(199, 98%, 98%);
-  font-size: 500%;
-  margin-top:0.6em;
-  line-height: 1.5em;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: hsl(199, 98%, 98%);
+    font-size: 500%;
+    margin-top:0.6em;
+    line-height: 1.5em;
 }
 
 section.body
@@ -45,45 +45,45 @@ a
 
 p
 {
-  display:block;
-  margin: auto;
-  padding:2em;
-  padding-bottom:0;
-  text-align: left;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  color: hsl(199, 98%, 45%);
-  font-size: 150%;
-  max-width: 48em;
-  line-height: 1.5em;
+    display:block;
+    margin: auto;
+    padding:2em;
+    padding-bottom:0;
+    text-align: left;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: hsl(199, 98%, 45%);
+    font-size: 150%;
+    max-width: 48em;
+    line-height: 1.5em;
 }
 
 p.copyright
 {
-  font-size:100%;
+    font-size:100%;
 }
 
 strong
 {
-  font-size:200%;
+    font-size:200%;
 }
 .orange
 {
-  color: hsl(14, 100%, 57%);
+    color: hsl(14, 100%, 57%);
 }
 .centered_instructions
 {
-  text-align: center;
-  padding-bottom:0;
-  padding-top:0;
-  font-size: 100%;
+    text-align: center;
+    padding-bottom:0;
+    padding-top:0;
+    font-size: 100%;
 }
 
 .centered
 {
-  padding-top: 1em;
-  margin-top: 0;
-  text-align: center;
-  margin-bottom: 1em;
+    padding-top: 1em;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 1em;
 }
 
 .caption
@@ -93,8 +93,8 @@ strong
 
 img.project_pic
 {
-  width: 100%;
-  max-width: 920px;
+    width: 100%;
+    max-width: 920px;
 }
 
 section
@@ -104,33 +104,33 @@ section
 
 address
 {
-  font-style: normal;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  color: hsl(199, 98%, 95%);
-  font-size: 150%;
-  color:hsl(199, 98%, 45%);
+    font-style: normal;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: hsl(199, 98%, 95%);
+    font-size: 150%;
+    color:hsl(199, 98%, 45%);
 }
 
 iframe
 {
-  max-width: 940px;
-  width: 100%;
-  height:70em;
+    max-width: 940px;
+    width: 100%;
+    height:70em;
 }
 
 footer
 {
-  width:100%;
-  padding-top: 5em;
-  padding-bottom: 5em;
+    width:100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 span
 {
-  font-weight: bolder;
+    font-weight: bolder;
 }
 
 [class^='imghvr-'],
 [class*=' imghvr-'] {
-  background-color: #029ce3;
+    background-color: #029ce3;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -7,27 +8,17 @@
     <meta name="description" content="This is my personal website" />
     <meta name="keywords" content="Carter, Wu, Xiaoxu, Personal, Website" />
     <meta name="author" content="Xiaoxu Wu, Carter Wu" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/components.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/components.css" />
     <title>Carter Wu's Personal Website</title>
-    <script src="js/modernizr-2.6.2.min.js"></script>
-
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-82077099-1', 'auto');
-    ga('send', 'pageview');
-
-    </script>
-
+    <script src="/js/modernizr-2.6.2.min.js"></script>
 </head>
+
 <body>
     <div class = "container">
+        <!-- start content -->
         <div class = "top-container">
-            <img class="portrait" src = "assets/pictures/me.jpg"
+            <img class="portrait" src = "/assets/pictures/me.jpg"
             alt="My portrait picture" title = "Me" />
             <section class = "title">
                 <h1>Carter Wu</h1>
@@ -47,25 +38,23 @@
                 </p>
             </section>
         </div>
-        <div class="component">
-            <!-- Start Nav Structure -->
-            <button class="cn-button" id="cn-button">+</button>
-            <div class="cn-wrapper" id="cn-wrapper">
-                <ul>
-                    <li><a class = "selected" href="#"><span>Bio</span></a></li>
-                    <li><a href="résumé.html"><span>Résumé</span></a></li>
-                    <li><a href="portfolio.html"><span>Portfolio</span></a></li>
-                    <li><a href="contact.html"><span>Contact</span></a></li>
-                </ul>
-            </div>
-            <div id="cn-overlay" class="cn-overlay"></div>
-            <!-- End Nav Structure -->
-        </div>
+        <!-- end content -->
+
+        <!-- Start Nav Structure -->
+        <nav class="component" id="NavMenu"></nav>
+        <!-- End Nav Structure -->
     </div>
-    <script src="js/polyfills.js"></script>
-    <script src="js/menu.js"></script>
+
+    <!-- begin scripts -->
+    <script src="/js/polyfills.js"></script>
+    <script src="/js/menu.js"></script>
+    <!-- end scripts -->
+
+    <!-- begin footer -->
+    <footer>
+        <p class="copyright">Copyright © 2016 Xiaoxu Wu </p>
+    </footer>
+    <!-- end footer-->
 </body>
-<footer>
-    <p class="copyright">Copyright © 2016 Xiaoxu Wu </p>
-</footer>
+
 </html>
