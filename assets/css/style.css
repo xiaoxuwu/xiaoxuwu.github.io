@@ -80,9 +80,9 @@ strong
 
 .centered
 {
-    padding-top: 1em;
+    padding-top: 0;
     margin-top: 0;
-    text-align: center;
+    text-align: center !important;
     margin-bottom: 1em;
 }
 
