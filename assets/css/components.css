@@ -225,7 +225,7 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 
 .csstransforms .cn-wrapper li a.selected
 {
-    background-color: hsl(14, 100%, 57%);
+    background-color: #E65100;
 
 }
 
