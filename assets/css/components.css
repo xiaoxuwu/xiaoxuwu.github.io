@@ -154,7 +154,7 @@ li{
     font-size: 0.7em;
     font-weight: bold;
     opacity: 0.8;
-    font: "Trebuchet MS", Helvetica, sans-serif
+    font: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 /* for a central angle x, the list items must be skewed by 90-x degrees
@@ -195,12 +195,16 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 
 .csstransforms .cn-wrapper li:nth-child(odd) a {
     background-color: hsl(199, 98%, 50%);
-
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .csstransforms .cn-wrapper li:nth-child(even) a {
     background-color: hsl(199, 98%, 60%);
-
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 /* active style */
@@ -226,7 +230,7 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 .csstransforms .cn-wrapper li a.selected
 {
     background-color: #E65100;
-
+    border:0.2em solid hsl(199, 98%, 98%);
 }
 
 /* fallback */

@@ -16,6 +16,12 @@ p.copyright
     font-size: 100%;
 }
 
+.container-fluid
+{
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .centered
 {
     padding-top: 0;
@@ -45,10 +51,10 @@ div.top-container
 img.portrait
 {
     border-radius:50%;
-    border:1.5em solid hsl(14, 100%, 57%);
+    border:1em solid hsl(14, 100%, 57%);
     display:block;
     width: 20%;
-    min-width: 380px;
+    min-width: 240px;
     margin: auto;
     box-shadow: 0px 0px 0px 1em hsl(199, 98%, 98%);
 }
@@ -73,7 +79,6 @@ section.body
 {
     text-align: center;
     padding-top:1.5em;
-    background-color: white;
     border-bottom: 1px transparent solid;
 }
 
@@ -99,7 +104,7 @@ p
     font-size: 150%;
     max-width: 48em;
     line-height: 1.5em;
-    border-bottom: 1px transparent solid ;
+    border-bottom: 1px transparent solid;
 }
 
 
@@ -112,9 +117,8 @@ address
 {
     font-style: normal;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: hsl(199, 98%, 95%);
-    font-size: 150%;
-    color:hsl(199, 98%, 45%);
+    font-size: 125%;
+    color: hsl(199, 98%, 45%);
 }
 
 footer
