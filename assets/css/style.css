@@ -4,6 +4,21 @@ p.copyright
     font-size:100%;
 }
 
+.white
+{
+    color: white;
+}
+
+.noPaddingTop
+{
+    padding-top: 0;
+}
+
+.marginBottom
+{
+    margin-bottom: 5em;
+}
+
 .orange
 {
     color: hsl(14, 100%, 57%);

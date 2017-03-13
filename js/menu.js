@@ -1,8 +1,8 @@
 /* code for determining active */
 var isBioSelected = document.URL.search("bio") != -1 ? 'class = selected' : '';
-var isPortSelected = document.URL.search("portfolio") != -1 ? 'class = selected' : '';
+var isBlogSelected = document.URL.search("blog") != -1 ? 'class = selected' : '';
 var isContactSelected = document.URL.search("contact") != -1 ? 'class = selected' : '';
-var isHomeSelected = (isBioSelected + isPortSelected + isContactSelected).length == 0 ? 'class = selected' : '';
+var isHomeSelected = (isBioSelected + isBlogSelected + isContactSelected).length == 0 ? 'class = selected' : '';
 
 /* main nav */
 document.getElementById("NavMenu").innerHTML =
@@ -11,7 +11,7 @@ document.getElementById("NavMenu").innerHTML =
 	'<ul>' +
 		'<li><a ' + isHomeSelected + ' href="/"><span>Home</span></a></li>' +
 		'<li><a ' + isBioSelected +' href="/bio"><span>Bio</span></a></li>' +
-		'<li><a ' + isPortSelected + ' href="/portfolio"><span>Portfolio</span></a></li>' +
+		'<li><a ' + isBlogSelected + ' href="/blog"><span>Blog</span></a></li>' +
 		'<li><a ' + isContactSelected + ' href="/contact"><span>Contact</span></a></li>' +
 	'</ul>' +
 '</div>' +

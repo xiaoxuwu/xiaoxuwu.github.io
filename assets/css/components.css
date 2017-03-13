@@ -209,7 +209,7 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 
 /* active style */
 .csstransforms .cn-wrapper li.active a {
-    background-color: hsl(14, 100%, 60%);
+    background-color: #E65100;
 
 }
 
@@ -218,8 +218,8 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 .csstransforms .cn-wrapper li:not(.active) a:hover,
 .csstransforms .cn-wrapper li:not(.active) a:active,
 .csstransforms .cn-wrapper li:not(.active) a:focus {
-    background-color: hsl(14, 100%, 70%);
-
+    border: 0.4em solid white;
+    background-color: hsl(21, 100%, 30%);
 }
 .csstransforms .cn-wrapper li:not(.active) a:focus
 {
@@ -230,7 +230,6 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 .csstransforms .cn-wrapper li a.selected
 {
     background-color: #E65100;
-    border:0.2em solid hsl(199, 98%, 98%);
 }
 
 /* fallback */
@@ -320,7 +319,7 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
     {
         min-width: 240px;
         margin-bottom: 0;
-        border:1em solid hsl(14, 100%, 57%);
+        border:1em solid #E65100;
 
     }
 
