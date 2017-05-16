@@ -2,56 +2,186 @@
 <html lang="en">
 
 <head>
-  <!-- bootstrap begin -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-  integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
-  crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-  integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-  integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-  crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-  integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-  crossorigin="anonymous"></script>
-  <!-- bootstrap end -->
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="This is my personal website" />
-  <meta name="keywords" content="Carter, Wu, Xiaoxu, Personal, Website" />
-  <meta name="author" content="Xiaoxu Wu, Carter Wu" />
-  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
-  <link rel="stylesheet" type="text/css" href="/assets/css/components.css" />
-  <title>Carter Wu's Personal Website</title>
-  <script src="/js/modernizr-2.6.2.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Carter Wu</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-  <div class="container-fluid">
-    <!-- start content -->
-    <div class="top-container">
-      <img class="portrait" src="/assets/pictures/me.jpg" alt="My portrait picture" title="Me" />
-      <section class="title">
-        <h1>Carter Wu</h1>
-      </section>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-toggleable-md navbar-dark fixed-top scrolling-navbar">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-component" aria-controls="navbar-component" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-component">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /.Navbar -->
+
+    <!-- Landing Page Introduction -->
+    <section id="home"></section>
+    <div class="view hm-black-strong">
+        <video loop muted autoplay poster="https://s-media-cache-ak0.pinimg.com/originals/a7/5f/dc/a75fdcab110ae11f155ed96f428a86ae.png" class="video wow fadeIn" data-wow-delay="0.2s">
+            <source src="assets/videos/cover.mp4" type="video/mp4">
+        </video>
+        <div class="full-bg-img flex-center">
+            <ul>
+                <li>
+                    <img class="portrait wow fadeInDown" src="assets/pictures/me.jpg" alt="self portrait" data-wow-delay="0.4s">
+                </li>
+                <li>
+                    <h1 class="h1-responsive wow fadeInDown name" data-wow-delay="0.2s"><strong>Carter Wu</strong></h1>
+                </li>
+                <li>
+                    <p class="wow fadeInDown subtitle">Aspiring Data Scientist<br>Web, Android Dev Enthusiast<br>UCLA CSE Student</p>
+                </li>
+            </ul>
+        </div>
     </div>
-    <section class="container body">
-      <p class="centered">PlayFull Software Engineer • UCLA CHPR Python Developer
-        <br>UCLA CSE Student • Tau Beta Pi Webmaster</p>
-    </section>
-    <!-- end content -->
+    <!-- /.Landing Page Introduction -->
 
-    <!-- Start Nav Structure -->
-    <nav class="component" id="NavMenu"></nav>
-    <!-- End Nav Structure -->
-  </div>
+    <!-- Main container-->
+    <div class="container outer-wrapper">
+        <!-- Section: About -->
+        <section id="about" class="text-center wow fadeIn" data-wow-delay="0.2s">
+            <div class="divider-new">
+                <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">Who I am</h2>
+            </div>
+            <hr>
 
-  <!-- begin scripts -->
-  <script src="/js/polyfills.js"></script>
-  <script src="/js/menu.js"></script>
-  <!-- end scripts -->
+            <img class="content-photo" src="assets/pictures/group-photo.jpg" alt="group photo at Yucca Valley">
+        </section>
+        <!-- /.Section: About -->
+
+        <!--Section: Contact-->
+        <section id="contact">
+            <div class="divider-new">
+                <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">Let's get in touch!</h2>
+            </div>
+            <hr>
+            <!-- Contact container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+                    <!-- Contact intro -->
+                    <div class="col-md-12">
+                        <p class="centered margin_3_bottom wow fadeIn" data-wow-delay="0.2s">
+                            Feel free to contact me with any of the methods below. I'd love to chat or connect with you!
+                        </p>
+                    </div>
+                    <!-- /.Contact intro -->
+
+                    <!-- Contact icons and info -->
+
+                    <!-- Address -->
+                    <div class="col-md-3 col-6 margin_2_bottom">
+                        <ul class="text-center">
+                            <li class="wow fadeIn contact-boxes" data-wow-delay="0.3s">
+                                <i class="fa fa-map-marker"></i>
+                                <p>Los Angeles, CA</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.Address -->
+
+                    <!-- Phone -->
+                    <div class="col-md-3 col-6 margin_2_bottom">
+                        <ul>
+                            <li class="wow fadeIn contact-boxes" data-wow-delay="0.5s">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <p>(916) 294-5789</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.Phone -->
+
+                    <!-- Email -->
+                    <div class="col-md-3 col-6 margin_2_bottom">
+                        <ul>
+                            <li class="wow fadeIn contact-boxes" data-wow-delay="0.7s">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <a href="mailto:carter.wu@ucla.edu"><p>carter.wu@ucla.edu</p></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.Email -->
+
+                    <!-- LinkedIn -->
+                    <div class="col-md-3 col-6 margin_2_bottom">
+                        <ul>
+                            <li class="wow fadeIn contact-boxes" data-wow-delay="0.9s">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                <a href="https://www.linkedin.com/in/xiaoxu-carter-wu/"><p>Go to my LinkedIn</p></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.LinkedIn -->
+
+                    <!-- /.Contact icons and info -->
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.Contact container -->
+        </section>
+        <!-- /.Section: Contact-->
+
+    </div>
+    <!-- /.Main container-->
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <!-- WOW Animations init-->
+    <script>new WOW().init();</script>
+
+    <!-- Animations for scrolling -->
+    <script type="text/javascript" src="js/animate-scroll.js"></script>
+
+    <!-- /.SCRIPTS -->
+
 </body>
 
 </html>
