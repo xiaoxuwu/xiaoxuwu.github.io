@@ -70,15 +70,16 @@ footer.page-footer {
 }
 
 .nav-item {
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
-  width: 5em;
-  text-align: center;
-  margin: 0 auto;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    width: 8em;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: .2em;
 }
 
 .contact-boxes {
-  text-align: center;
+    text-align: center;
 }
 
 .navbar-toggler-right {
@@ -146,6 +147,69 @@ hr {
     text-align: left;
     padding-top: 50px;
 }
+
+.scroll-down a {
+    position: absolute;
+    bottom: 20px;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    letter-spacing: .2em;
+    text-decoration: none;
+    transition: opacity .3s;
+}
+.scroll-down a:hover {
+    opacity: .5;
+}
+
+#scrollDown a {
+    padding-top: 70px;
+    margin-left: -32px;
+}
+#scrollDown a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: scroll_down_animation 1.5s infinite;
+    box-sizing: border-box;
+}
+@-webkit-keyframes scroll_down_animation {
+    0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+@keyframes scroll_down_animation {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
 
 @media only screen and (max-width: 991px) {
     .show {
