@@ -148,9 +148,11 @@ hr {
     padding-top: 50px;
 }
 
+.scroll-down {
+    padding-top: 4em;
+}
+
 .scroll-down a {
-    position: absolute;
-    bottom: 20px;
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
@@ -159,6 +161,7 @@ hr {
     letter-spacing: .2em;
     text-decoration: none;
     transition: opacity .3s;
+    height: 40%;
 }
 .scroll-down a:hover {
     opacity: .5;
@@ -166,7 +169,6 @@ hr {
 
 #scrollDown a {
     padding-top: 70px;
-    margin-left: -32px;
 }
 #scrollDown a span {
     position: absolute;
