@@ -215,6 +215,12 @@ hr {
 
 
 @media only screen and (max-width: 991px) {
+
+    .portrait {
+        width: 60%;
+        margin-top: 10em;
+    }
+
     .scroll-text {
         display: none;
     }
