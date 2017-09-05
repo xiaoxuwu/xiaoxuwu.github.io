@@ -164,6 +164,7 @@ hr {
     transition: opacity .3s;
     height: 40%;
 }
+
 .scroll-down a:hover {
     opacity: .5;
 }
@@ -171,6 +172,15 @@ hr {
 #scrollDown a {
     padding-top: 70px;
 }
+
+.body-header {
+    padding: 1em;
+}
+
+p {
+    font-size: 110%;
+}
+
 #scrollDown a span {
     position: absolute;
     top: 0;
@@ -186,6 +196,7 @@ hr {
     animation: scroll_down_animation 1.5s infinite;
     box-sizing: border-box;
 }
+
 @-webkit-keyframes scroll_down_animation {
     0% {
         -webkit-transform: rotate(-45deg) translate(0, 0);
@@ -199,6 +210,7 @@ hr {
         opacity: 0;
     }
 }
+
 @keyframes scroll_down_animation {
     0% {
         transform: rotate(-45deg) translate(0, 0);
