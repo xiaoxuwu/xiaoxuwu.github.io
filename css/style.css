@@ -3,7 +3,7 @@
     max-width: 20em;
     margin: 0 auto;
     border-radius: 100%;
-    margin-top: 6em;
+    margin-top: 8em;
 }
 
 .top-nav-collapse {
@@ -215,6 +215,10 @@ hr {
 
 
 @media only screen and (max-width: 991px) {
+    .scroll-text {
+        display: none;
+    }
+
     .show {
         background-color: black;
     }
