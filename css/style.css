@@ -28,6 +28,10 @@ body,
     height: 100%;
 }
 
+#video {
+    position: fixed;
+}
+
 div.view.hm-black-strong {
     background-color: black;
 }
@@ -118,7 +122,15 @@ footer.page-footer {
 }
 
 .outer-wrapper {
-    margin-bottom: 5em;
+    margin: 0;
+    padding-bottom: 5em;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: white;
+    width: 100%;
+    border-bottom: 10em solid white;
+    margin-bottom: -10em;
+    box-shadow: 0 1em 4em 2em black;
 }
 
 .content-photo {
@@ -261,5 +273,28 @@ p {
 
     .about-content {
         padding-top: 10px;
+    }
+
+    .outer-wrapper {
+        padding-bottom: 3em;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    #video {
+        margin-left: -20em;
+    }
+
+    .scroll-down {
+        padding-top: 2em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .outer-wrapper {
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 }
