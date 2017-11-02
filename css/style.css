@@ -1,5 +1,6 @@
 .portrait {
     width: 75%;
+    height: 75%;
     max-width: 20em;
     margin: 0 auto;
     border-radius: 100%;
@@ -242,6 +243,7 @@ p {
 
     .portrait {
         width: 60%;
+        height: 60%;
         margin-top: 10em;
     }
 
